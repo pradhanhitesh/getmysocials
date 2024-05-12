@@ -1636,3 +1636,22 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		html {
+			overflow: scroll;
+			overflow-x: hidden;
+		  }
+		  ::-webkit-scrollbar {
+			width: 0;  /* Remove scrollbar space */
+			background: transparent;  /* Optional: just make scrollbar invisible */
+			co
+		  }
+
+		  .icons {
+			text-align: center;
+		}
+	
+		.icons li {
+			display: inline-block;
+			margin: 0 10px; /* Adjust the margin as per your preference */
+		}
